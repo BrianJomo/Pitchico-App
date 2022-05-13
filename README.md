@@ -51,3 +51,15 @@ $ curl https://bootstrap.pypa.io/get-pip.py | python
 $ pip install flask
 
 ```
+
+## Technology Used
+
+* Python - Which was used to structure and build the logic hence interactive with the client-side and server-side.
+
+* HTML - which was used to build the structure of the web pages.
+
+* CSS - which was used to style the web pages.
+
+* Bootsrap - which was also used to style the web pages.
+
+* Flask - Which made creating web applications in Python easier.
