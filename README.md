@@ -17,3 +17,7 @@
 ## Description
   
 <p>This is an application set up using python and flask technology, enables users to create accounts. Users can also add, view and vote from a variety of pitch category provided.</p>
+
+## Installation
+
+To gain acess to this application click on this link: https://github.com/BrianJomo/Pitchico-App
