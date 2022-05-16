@@ -50,6 +50,12 @@ $ curl https://bootstrap.pypa.io/get-pip.py | python
 
 $ pip3 install -r requirements.txt 
 
+$ python3.8 manage.py db init
+
+$ python3.8 manage.py db migrate -m "Initial Migration"
+
+$ python3.8 manage.py db upgrade
+
 ```
 
 To explore the features of this news website navigate to this link on your browser or just click on this link: https://pitchico.herokuapp.com/
