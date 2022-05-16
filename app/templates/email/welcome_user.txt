@@ -1,3 +1,0 @@
-Hi There! {{user.username}}
-Welcome to pitchico and thank you for signing up to our services.
-As a passionate and dedicated firm, we'd love to recieve your feedback about our services. If you have any queries, please reply to this email. Welcome again!
