@@ -48,7 +48,7 @@ $ source virtual/bin/activate
 
 $ curl https://bootstrap.pypa.io/get-pip.py | python
 
-$ pip install flask
+$ pip3 install -r requirements.txt 
 
 ```
 
