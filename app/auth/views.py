@@ -8,6 +8,8 @@ from ..email import mail_message
 
 from .. import db
 
+#authentication
+
 @auth.route('/login',methods=['GET','POST'])
 def login():
     login_form = LoginForm()
