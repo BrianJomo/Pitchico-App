@@ -19,7 +19,7 @@ class Config:
         pass
 
 class ProdConfig(Config):
-     SQLALCHEMY_DATABASE_URI = 'postgresql://sorzwxhfwblzaa:2c926243af97319b412f4cb7cfb4943d0bcfa9bce456f339737bf0aa8d175dff@ec2-54-86-224-85.compute-1.amazonaws.com:5432/dfk5dgeselavkp'
+     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Romanoz@localhost/pitchico'
     
      pass
 
