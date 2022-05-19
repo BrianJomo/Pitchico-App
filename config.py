@@ -1,9 +1,10 @@
 import os
 
 class Config:
-
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Romanoz@localhost/pitchico'
-    SECRET_KEY = os.urandom(32)
+    
+    SECRET_KEY = os.environ.get('SECRET_KEY')
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Romanoz@localhost/pitchico'  
+      
     #  email configurations
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
